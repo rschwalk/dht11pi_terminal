@@ -1,3 +1,8 @@
+mod pi_2_dht;
+
 fn main() {
-    println!("Hello, world!");
+    let res = pi_2_dht::pi_2_dht_read(4);
+
+    println!("Result: {:?}", res);
 }
+
